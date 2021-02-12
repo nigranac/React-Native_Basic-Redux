@@ -1,5 +1,5 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
+import {Text, View} from 'react-native';
 import {useSelector} from 'react-redux';
 const OtherA = () => {
   const myCounter = useSelector((can) => can.counter);
@@ -11,5 +11,3 @@ const OtherA = () => {
 };
 
 export default OtherA;
-
-const styles = StyleSheet.create({});

@@ -1,6 +1,6 @@
 import React from 'react';
-import {StyleSheet, Text, View} from 'react-native';
-import {useSelector, useDispatch} from 'react-redux';
+import {Text, View} from 'react-native';
+import {useSelector} from 'react-redux';
 const OtherB = () => {
   const {counter} = useSelector((state) => state);
   return (
@@ -11,5 +11,3 @@ const OtherB = () => {
 };
 
 export default OtherB;
-
-const styles = StyleSheet.create({});
