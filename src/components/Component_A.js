@@ -1,6 +1,6 @@
 import React from 'react';
 import {Button, Text, View} from 'react-native';
-import {useSelector, useDispatch} from 'react-redux';
+import {useDispatch} from 'react-redux';
 import OtherA from './OtherA';
 const Component_A = ({navigation}) => {
   const dispatch = useDispatch();
